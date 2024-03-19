@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F1F0;
+}
+.logo{
+    display: flex;
+
+}
+.logoB{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.logo h1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+span{
+    color: #D99543;
+    font-family: cursive;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+nav ul li{
+    padding: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+nav ul li a:hover{
+    color:#D99543;
+    transition: .3s;
+}
+.search img{
+    position: relative;
+    
+}
+.search input{
+    background-color: white;
+    font-size: .9rem;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+main  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+main div{
+    margin:10px;
+    text-align: center;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h4{
+    color: rgb(169, 169, 169);
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: center;
+}
+.container1{
+    margin-top: 50px;
+    
+}
+.con1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.img2{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+}
+.p1{
+    display: block;
+    margin-left: 50px;
+}
+.p1 h1{
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 40px;
+}
+.p1 p{
+    font-size: 20px;
+    color: rgb(169, 169, 169);
+    text-align: center;
+}
+.b1{
+    margin-top: 20px;
+    font-size: 16px
+}
+button{
+    border-radius: 20px;
+    border: none;
+    background-color: #D99543;
+    color: white;
+    padding: 8px;
+} 
+.p2 {
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+}
+hr{
+    border: 2px solid;
+    color: gray;
+}
+.container2{
+    margin-top: 50px;
+    background-color: #F2F1F0;
+    text-align: center;
+}
+
+h2{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.email{
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.in{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.p3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.p4{
+    background-color: #d4a56b;
+}
+.p4 h2{
+    margin-top: 10px
+}
+.p5 img{
+    margin: 30px;
+    
+}
+h5{
+    margin-left: 8px;
+}
